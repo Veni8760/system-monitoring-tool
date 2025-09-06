@@ -604,20 +604,4 @@ If anything spelt wrong or formatted wrong will lead to undefined behaviour and 
 
 
 
-## **Disclaimer**
-![alt text](image.png)
-
-https://man7.org/linux/man-pages/man3/usleep.3.html
-
-From piazza I used #define _DEFAULT_SOURCE to ignore the sleep warning.
-
-I was not able to find a nice place to put the question when user does ctrl-c and the question printf("Do you want to quit or continue? (y,n): "); I just print it at the depth if there was both cpu and memeory on the graph so its at 35,0 for my code so it user just did --cpu or  --memeory the question might seem little to far below.
-
-When pressing crtl-z if spammed fast it enough it will interefere with the cpu graph while it its printing.
-
-https://users.cs.cf.ac.uk/Dave.Marshall/C/node24.html#SECTION002420000000000000000
-
-used for the line  signal(SIGTSTP, SIG_IGN);
-
-
 
